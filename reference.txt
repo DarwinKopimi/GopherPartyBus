@@ -2,3 +2,4 @@ https://stackoverflow.com/questions/40022861/parsing-values-from-property-file-i
 https://www.w3schools.com/howto/howto_css_loader.asp - loader screen
 https://nodejs.dev/learn/understanding-javascript-promises/ - fetch and promise setup
 https://web.dev/promises/ - fetch and promise setup
+https://stackoverflow.com/questions/46791052/detect-scale-settings-dpi-with-javascript-or-css - screen stuff
