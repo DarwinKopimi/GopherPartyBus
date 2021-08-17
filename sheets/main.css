@@ -1,11 +1,36 @@
-.main_title {}
+@media (min-resolution: 72dpi) {
+#main_title {
+  text-align: center;
+  color: white;
+}
 
-#base_button {
+body {
+  background-color: grey;
+  text-align: center;
+}
+label {
+  color: white;
+}
+#base-button {
  border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px #888888;
+  margin-right: 10px;
 }
-
-.text_box {}
-
-.display_box {}
+@media (min-resolution: 72dpi) {
+#request {
+  border: 1px solid;
+   border-radius: 25px;
+   padding: 5px;
+   margin-bottom: 10px;
+}
+@media (min-resolution: 72dpi) {
+#display-box {
+  border: 1px solid;
+   border-radius: 25px;
+   padding: 5px;
+   margin-bottom: 10px;
+   width: 400px;
+   height: 250px;
+   display: none;
+}
