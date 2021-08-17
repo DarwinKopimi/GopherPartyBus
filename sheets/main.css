@@ -1,6 +1,10 @@
 .main_title {}
 
-.base_button {}
+#base_button {
+ border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+}
 
 .text_box {}
 
