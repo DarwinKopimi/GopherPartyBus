@@ -1,4 +1,4 @@
-package main
+package servicecallhandler
 
 import (  "fmt"
   "encoding/json"
@@ -42,6 +42,7 @@ func main() {
     
 }
 func cocktailCall (){
+  //will replace with the properties call instead when given the button input
 response, err := http.Get("https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita");
 
 if err != nil {
