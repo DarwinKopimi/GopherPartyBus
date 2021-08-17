@@ -1,2 +1,3 @@
 https://stackoverflow.com/questions/40022861/parsing-values-from-property-file-in-golang/46860900 - reading property files
 https://www.w3schools.com/howto/howto_css_loader.asp - loader screen
+https://nodejs.dev/learn/understanding-javascript-promises/ - fetch and promise setup
