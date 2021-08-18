@@ -36,12 +36,6 @@ func ingridents(c Cocktail ) string {
 }
 
 
-
-func main() {
-
-
-    
-}
 func cocktailCall (){
   //will replace with the properties call instead when given the button input
 response, err := http.Get("https://www.thecocktaildb.com/api/json/v1/1/search.php?s=margarita");
@@ -62,9 +56,7 @@ if err != nil {
 
 json.Unmarshal(data, &cock)
 
-for i:= 0; i < len(cock.Cocktails);i++ {
-fmt.Println("Name: ",cock.Cocktails[i].Name,"\n",
-"Non/Alcholic: ",cock.Cocktails[i].Alchohlic ,"\n","Instructions: ",cock.Cocktails[i].Instructions,"\n","Ingridents: ",ingridents(cock.Cocktails[i]));
+  return cock;
 }
 
 }
