@@ -26,6 +26,7 @@ type Cocktail struct {
  IngridentFour string `json:"strIngredient4"`
  IngridentFive string `json:"strIngredient5"`
  Instructions string `json:"strInstructions"`
+ Thumbnail string `json:"strDrinkThumb"`
 
 }
 
